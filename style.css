@@ -95,10 +95,31 @@ small {
   padding-left: 16px;
 }
 
+/*copyback*/
+
+.totoro .copy {
+  background-image: url(totoro-copyback.png);
+}
+
+.ponyo .copy {
+  background-image: url(ponyo-copyback.png);
+}
+
+.mononoke .copy {
+  background-image: url(mononoke-copyback.png);
+}
+
+.howl .copy {
+  background-image: url(howl-copyback.png);
+}
+
+.laputa .copy {
+  background-image: url(laputa-copyback.png);
+}
+
 /*copy*/
 
 .copy {
-  background-image: url(totoro-copyback.png);
   background-size: cover;
   background-color:rgba(255,255,255,0.3);
   background-blend-mode:lighten;
@@ -149,7 +170,7 @@ small {
 @media (max-width: 400px) {
 
   .characters h3 {
-    font-size: 12px;
+    font-size: 16px;
   }
 
 }
