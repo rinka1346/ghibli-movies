@@ -146,3 +146,10 @@ small {
   margin-top: 8px;
 }
 
+@media (max-width: 400px) {
+
+  .characters h3 {
+    font-size: 12px;
+  }
+
+}
