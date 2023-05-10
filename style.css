@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+/*common*/
+
+body {
+  margin: 0;
+}
+
+header {
+  margin: 0;
+  padding: 0 0 8px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 0;
+}
+
+img {
+  margin: 0 auto;
+  vertical-align: bottom;
+}
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto ;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+/*films*/
+
+.films {
+  min-height: 720px;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  background-color: #eee;
+  padding: 48px 0;
+}
+
+.films ul { 
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.films li {
+  width: calc((100% - 64px) / 2);
+  box-sizing: border-box;
+}
+
+.films img {
+  width: 100%;
+  height: auto;
+}
+
+.films p {
+  margin-top: 8px;
+}
+
+/*footer*/
+
+footer {
+  text-align: center;
+}
+
+small {
+  padding-left: 16px;
+}
+
+/*copy*/
+
+.copy {
+  background-image: url(totoro-copyback.png);
+  background-size: cover;
+  background-color:rgba(255,255,255,0.3);
+  background-blend-mode:lighten;
+}
+
+.copy img{
+  width: 100%;
+  height: auto;
+  margin: 40px 0;
+}
+
+/*characters*/
+
+.characters {
+  min-height: 720px;
+  border-bottom: 1px solid #aaa;
+  background-color: #eee;
+  padding: 48px 0;
+}
+
+.characters ul {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 48px;
+}
+
+.characters img {
+  border-radius: 50%;
+}
+
+.characters li {
+  width: calc((100% - 96px) / 3);
+  box-sizing: border-box;
+}
+
+.characters img {
+  width: 100%;
+  height: auto;
+}
+
+.characters h3 {
+  margin-top: 8px;
+}
+
